@@ -46,7 +46,7 @@ paths:
           $ref: "#/definitions/Ac"
       responses:
         "403":
-          description: Forbiden
+          description: Forbidden
         "405":
           description: "Invalid input"
         "202":
@@ -65,7 +65,7 @@ paths:
       - "application/json"
       responses:
         "403":
-          description: Forbiden
+          description: Forbidden
         "200":
           description: OK
           schema:
